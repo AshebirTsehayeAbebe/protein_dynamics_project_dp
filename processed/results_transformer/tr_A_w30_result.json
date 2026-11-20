@@ -1,0 +1,28 @@
+{
+  "config": {
+    "name": "tr_A_30",
+    "d_model": 512,
+    "heads": 8,
+    "ff_dim": 1024,
+    "layers": 3,
+    "dropout": 0.1,
+    "lr": 0.0002
+  },
+  "window": 30,
+  "Dx": 1242,
+  "Dy": 1242,
+  "best_val_mse": 0.22182068643690664,
+  "test_mse": 0.3056614134885088,
+  "seconds": 958.2561898231506,
+  "best_model_path": "/kaggle/working/protein_dynamics_project/processed/models/tr_B_30_w30_best.keras",
+  "mask_rate": 0.02,
+  "epochs": {
+    "teacher": 10,
+    "masked": 10,
+    "scheduled": 5
+  },
+  "batch": 64,
+  "seed": 42,
+  "win_dir": "/kaggle/working/protein_dynamics_project/processed/windows_w30_norm",
+  "splits_dir": "/kaggle/working/protein_dynamics_project/processed/splits/splits_w30"
+}

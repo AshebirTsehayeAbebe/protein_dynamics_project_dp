@@ -1,0 +1,24 @@
+{
+  "config": {
+    "name": "rnn_A_w25",
+    "units": 512,
+    "dropout": 0.1,
+    "lr": 0.0003
+  },
+  "window": 25,
+  "Dx": 1242,
+  "Dy": 1242,
+  "best_val_mse": 0.24322865450684028,
+  "test_mse": 0.29128656281700616,
+  "seconds": 366.50314593315125,
+  "best_model_path": "/kaggle/working/protein_dynamics_project/processed/models/rnn_A_w25_w25_best.keras",
+  "mask_rate": 0.05,
+  "epochs": {
+    "teacher": 10,
+    "masked": 10,
+    "scheduled": 5
+  },
+  "batch": 64,
+  "seed": 42,
+  "train_fraction": 1.0
+}

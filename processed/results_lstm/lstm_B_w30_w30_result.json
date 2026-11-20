@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "lstm_B_w30",
+    "units": 512,
+    "dropout": 0.15,
+    "lr": 0.00015
+  },
+  "window": 30,
+  "Dx": 1242,
+  "Dy": 1242,
+  "best_val_mse": 0.26439276356485825,
+  "test_mse": 0.30053156727476965,
+  "seconds": 340.6635191440582,
+  "best_model_path": "/kaggle/working/protein_dynamics_project/processed/models/lstm_B_w25_w30_best.keras",
+  "mask_rate": 0.05,
+  "epochs": {
+    "teacher": 10,
+    "masked": 10,
+    "scheduled": 5
+  },
+  "batch": 64,
+  "seed": 42
+}

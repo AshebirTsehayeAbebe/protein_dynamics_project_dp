@@ -1,0 +1,11 @@
+{
+  "window": 25,
+  "model_path": "D:\\@UniCal\\AI and CS\\1st year\\Deep Learning\\Final Project\\Final Project Code\\protein_dynamics_project\\processed\\models\\Transformer W25 Models\\tr_C_25_w25_best.keras",
+  "test_size": 4999,
+  "batch": 256,
+  "denorm_used": true,
+  "mse_all": 66723.7734375,
+  "mse_coords": 2.72304368019104,
+  "mse_vels": 0.3466382324695587,
+  "mse_forces": 200168.265625
+}

@@ -1,0 +1,11 @@
+{
+  "window": 25,
+  "model_path": "D:\\@UniCal\\AI and CS\\1st year\\Deep Learning\\Final Project\\Final Project Code\\protein_dynamics_project\\processed\\models\\LSTM W25 Models\\lstm_A_w25_w25_best.keras",
+  "test_size": 4999,
+  "batch": 256,
+  "denorm_used": true,
+  "mse_all": 73009.15625,
+  "mse_coords": 2.4735772609710693,
+  "mse_vels": 0.28286370635032654,
+  "mse_forces": 219024.6875
+}

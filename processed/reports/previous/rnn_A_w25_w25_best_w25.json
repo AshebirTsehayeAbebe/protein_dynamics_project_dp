@@ -1,0 +1,11 @@
+{
+  "window": 25,
+  "model_path": "D:\\@UniCal\\AI and CS\\1st year\\Deep Learning\\Final Project\\Final Project Code\\protein_dynamics_project\\processed\\models\\RNN W25 Models\\rnn_A_w25_w25_best.keras",
+  "test_size": 4999,
+  "batch": 256,
+  "denorm_used": true,
+  "mse_all": 62848.13671875,
+  "mse_coords": 2.609848976135254,
+  "mse_vels": 0.337615430355072,
+  "mse_forces": 188541.46875
+}
